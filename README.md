@@ -92,4 +92,4 @@ Base URL: <http://api.apixu.com/v1>
     .........    
     ```
  - - - -    
-####Free to Use .  Request Free API Key from https://www.apixu.com/
+####Free to Use .  Request Free API Key from <https://www.apixu.com/>
