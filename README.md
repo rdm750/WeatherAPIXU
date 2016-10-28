@@ -25,7 +25,7 @@ Base URL: http://api.apixu.com/v1
 
 #Steps:
 
-* Download Folder WeatherAPIXU to local computer except build folder.
+1. Download Folder WeatherAPIXU to local computer except build folder.
 
 ```
 $ ls -ltr | awk '{print $1,$9}'
@@ -35,11 +35,11 @@ drwxr-xr-x WeatherAPIXU
 -rw-r--r--@ examples.py
 ```
 
-* Run setup.py
+2. Run setup.py
 
 sudo python setup.py install
 
-* Check Installation using pip utility
+3. Check Installation using pip utility
 
 $ pip show WeatherAPIXU
 
@@ -67,7 +67,7 @@ Classifiers:
   Intended Audience :: Developers
 ```
 
-* Run Examples to check if import in Python (tested on 2.7)
+4. Run Examples to check if import in Python (tested on 2.7)
 
 ```
 $ python examples.py
@@ -101,4 +101,4 @@ Base URL: http://api.apixu.com/v1
 .......
 .........
 
-###Free to Use .  Request Free API Key from https://www.apixu.com/
+#Free to Use .  Request Free API Key from https://www.apixu.com/
