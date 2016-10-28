@@ -69,14 +69,18 @@ Classifiers:
 
 4. Run Examples to check if import in Python (tested on 2.7)
 
+```
 $ python examples.py
 
 A simple Library for accessing a https://www.apixu.com/ API. 
 
 REST API Client Lib: GETS JSON data
 
+```
+
 ------------
 
+```
 USAGE:
 test = Weather_APIXU('API_KEY')
 print test.weather_current(query='19031')
@@ -88,6 +92,8 @@ print 'history ',test.weather_history(query='19031',Date = '2016-10-01')['foreca
 
 
 Base URL: http://api.apixu.com/v1
+
+```
 
 -------------
 
