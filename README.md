@@ -1,12 +1,12 @@
 ### WeatherAPIXU
 #WeatherAPIXU REST JSON Client Library 
-```
+
 A simple Library for accessing a https://www.apixu.com/ API.
-
-sudo pip install WeatherAPIXU
-
-https://pypi.python.org/pypi/WeatherAPIXU/0.0.2
 ```
+sudo pip install WeatherAPIXU
+```
+https://pypi.python.org/pypi/WeatherAPIXU/0.0.2
+
 
 REST API Client Lib: GETS JSON data
 ------------
