@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-version = '0.0.1'
+version = '0.0.2'
 
 PACKAGES = ['WeatherAPIXU']
 
@@ -13,9 +13,9 @@ setup(
     packages= PACKAGES,
     include_package_data=True,
     install_requires=[
-        'requests','json'
+        'requests'
     ],
-    classifiers=['Development Status :: 1 - Production/Beta',
+    classifiers=['Development Status :: 4 - Beta',
                  'Environment :: Web Environment',
                  'Intended Audience :: Developers',
                  'Operating System :: OS Independent',
