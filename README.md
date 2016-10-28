@@ -23,7 +23,7 @@ print 'history ',test.weather_history(query='19031',Date = '2016-10-01')['foreca
 
 Base URL: http://api.apixu.com/v1
 
-Instructions:
+#Steps:
 
 1. Download Folder WeatherAPIXU to local computer except build folder.
 
