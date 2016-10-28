@@ -25,7 +25,7 @@ Base URL: http://api.apixu.com/v1
 
 #Steps:
 
-1. Download Folder WeatherAPIXU to local computer except build folder.
+1. A numbered list Download Folder WeatherAPIXU to local computer except build folder.
 
 ```
 $ ls -ltr | awk '{print $1,$9}'
