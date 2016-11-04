@@ -67,7 +67,7 @@ class Weather_APIXU:
 		return response
 
 	def weather_forecast(self,query=None,days=None):
-		url = self.api_url + 'forecast.json?key=' + self.api_key + '&q=' + query +',days='+days
+		url = self.api_url + 'forecast.json?key=' + self.api_key + '&q=' + query +'&days='+days
 		#url_forecast = 'http://api.apixu.com/v1/forecast.json?key=dc9e7f1f5fa84d4aa80193340162710&q=19031,days=7'
 		response = requests.get(url).json()
 		return response
