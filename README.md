@@ -1,6 +1,6 @@
 # WeatherAPIXU
  - - - -
-##WeatherAPIXU REST JSON Client Library 
+##WeatherAPIXU REST JSON Web Services Client Library 
  - - - -
 A simple Library for accessing a <https://www.apixu.com>/ API.
 ```
