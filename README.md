@@ -20,6 +20,39 @@ print 'current ',test.weather_current(query='19031')
 print 'forecast ',test.weather_forecast(query='19031',days='7')
 print 'search ',test.weather_search(query='auto:ip')
 print 'history ',test.weather_history(query='19031',Date = '2016-10-01')['forecast']['forecastday']
+
+use recursion/dfs to print the nested dictionary data and call recursively if it is a dictionary; otherwise print the data.
+
+        >>> def print_json(data):
+        ...     if type(data) == dict:
+        ...             for k,v in data.items():
+        ...                     print k
+        ...                     print_json(v)
+        ...     else:
+        ...             print data
+        ... 
+
+
+>>> print_json(test.weather_current(query='19031'))
+current
+precip_mm
+0.0
+last_updated
+2016-12-01 12:31
+wind_degree
+270
+wind_kph
+16.9
+is_day
+1
+temp_f
+50.0
+temp_c
+10.0
+humidity
+58
+...
+......
 ```
 
 Base URL: <http://api.apixu.com/v1>
